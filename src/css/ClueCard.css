@@ -1,0 +1,94 @@
+.ClueCard {
+    background: linear-gradient(110deg, #5b1680 60%, #b76a36 60%);
+    min-height: 70vh;
+    margin-top:10px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: absolute;
+  }
+
+.ClueCard-close-modal {
+    position: absolute;
+    background: #5127d1;
+    color: white;
+    font-size:32px;
+    border-radius: 5px 20px 5px;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+    font-family: 'Bangers', cursive;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.ClueCard-question {
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    width:45%;
+    margin-left: 40px;
+}
+
+.ClueCard-answer {
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    width:45%;
+    margin-left: 140px;
+    float: right;
+    color:black;
+}
+
+.ClueCard-q-body {
+    margin: 0 auto;
+}
+
+.ClueCard-show-answer {
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    width:45%;
+    margin-left: 40px;
+}
+
+.ClueCard-correct {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+    background:linear-gradient(to bottom, #32c420 5%, #388af0 100%);
+	background-color:#2520c4;
+    border-radius: 5px 20px 5px;
+	border:1px solid #cfb719;
+	display:inline-block;
+	cursor:pointer;
+	color: #edac13;
+	font-size:30px;
+	padding:7px 25px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+    font-family: 'Bangers', cursive;
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.ClueCard-wrong {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c71616 5%, #651322 100%);
+	background-color:#2520c4;
+    border-radius: 5px 20px 5px;
+	border:1px solid #cfb719;
+	display:inline-block;
+	cursor:pointer;
+	color: #edac13;
+	font-size:30px;
+	padding:7px 25px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+    font-family: 'Bangers', cursive;
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+
+}

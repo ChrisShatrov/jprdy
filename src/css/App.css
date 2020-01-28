@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width:100%;
+  height: auto;
+}
+
+.App-hide {
+  display: none !important;
+}
+
+.App-game-title {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #edac13;
+  font-size: 60px;
+  font-family: 'Bangers', cursive;
+}
+
+.App-Menu-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-play-button {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #2520c4 5%, #bc38f0 100%);
+	background-color:#2520c4;
+	border-radius:18px;
+	border:1px solid #cfb719;
+	display:inline-block;
+	cursor:pointer;
+	color: #edac13;
+	font-size:80px;
+	padding:7px 25px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #810e05;
+  font-family: 'Bangers', cursive;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.App-play-button:hover {
+	background:linear-gradient(to bottom, #bc38f0 5%, #2520c4 100%);
+	background-color:#bc38f0;
+}
+        
